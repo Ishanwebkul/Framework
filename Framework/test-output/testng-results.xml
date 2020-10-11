@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-11T13:25:38Z" name="Default suite" finished-at="2020-10-11T13:25:58Z" duration-ms="19608">
+    <groups>
+    </groups>
+    <test started-at="2020-10-11T13:25:38Z" name="Default test" finished-at="2020-10-11T13:25:58Z" duration-ms="19608">
+      <class name="com.learn.testcases.LoginTest">
+        <test-method is-config="true" signature="ObjectCreation()[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0]" started-at="2020-10-11T13:25:37Z" name="ObjectCreation" finished-at="2020-10-11T13:25:38Z" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectCreation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0]" started-at="2020-10-11T13:25:38Z" name="setup" finished-at="2020-10-11T13:25:50Z" duration-ms="11556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0]" started-at="2020-10-11T13:25:50Z" name="login" finished-at="2020-10-11T13:25:56Z" duration-ms="6189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0]" started-at="2020-10-11T13:25:56Z" name="tearDownMethod" finished-at="2020-10-11T13:25:57Z" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.learn.testcases.LoginTest@78e4deb0]" started-at="2020-10-11T13:25:57Z" name="close" finished-at="2020-10-11T13:25:58Z" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.learn.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
